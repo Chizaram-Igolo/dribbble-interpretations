@@ -6,32 +6,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="../../font-awesome.min.css" />
     <script src="../../tailwindcss-3.0.24.js"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body class="w-screen h-screen">
     <section class="w-full h-full">
-        <div class="w-full h-full">
-            <div class="w-[80%] grid grid-cols-3 gap-4 border-2 border-gray-900 mx-auto">
+        <div class="w-full h-full pt-8">
+            <div class="w-[80%] grid grid-cols-3 gap-4 mx-auto">
 
                 <!-- Card -->
-                <div class="border-2 border-gray-900 h-40">
+                <div class="bg-[#FBECEC] h-50 p-8 rounded-md border-2 border-[#FBECEC]">
                     <!-- Card header -->
-                    <div class="header h-[60%] flex">
+                    <div class="h-[60%] flex">
                         <!-- Icon circle -->
-                        <div class="circle">
+                        <div
+                            class="relative w-[5.4rem] h-[5.4rem] bg-gray-900 rounded-full border-[1.1rem] border-[#FFADAD] text-center">
                             <!-- badge -->
-                            <div class="badge"></div>
+                            <i class="fas fa-paw text-[1.4rem] leading-[3.2rem] text-white"></i>
+                            <div
+                                class="absolute bottom-[-35%] right-[-40%] badge w-8 h-8 rounded-full bg-white shadow text-center">
+                                <i class="fas fa-bell text-lg leading-8 text-[#F86A2B]"></i>
+                            </div>
                         </div>
                         <!-- More button -->
-                        <div class="more-button"></div>
+                        <div class="more-button">
+                        </div>
                     </div>
 
                     <!-- Card content -->
-                    <div class="content h-[40%]">
-                        <div class="heading">Store Analytics Data</div>
-                        <div class="text">Last edit by Mark at<span class="time">7:40 PM</span></div>
+                    <div class="h-[40%] pt-2">
+                        <div class="heading text-2xl">Store Analytics Data</div>
+                        <div class="text text-lg">Last edit by Mark at <span class="time">7:40 PM</span></div>
                     </div>
                 </div>
                 <!-- End of Card -->
