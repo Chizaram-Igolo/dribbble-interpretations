@@ -7,10 +7,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
-    <h1 class="text-3xl font-bold underline">Hello World!</h1>
+<body class="w-screen h-screen">
+    <section class="w-full h-full">
+        <div class="w-full h-full">
+            <div class="w-[80%] grid grid-cols-3 gap-4 border-2 border-gray-900 mx-auto">
+
+                <!-- Card -->
+                <div class="border-2 border-gray-900 h-40">
+                    <!-- Card header -->
+                    <div class="header h-[60%] flex">
+                        <!-- Icon circle -->
+                        <div class="circle">
+                            <!-- badge -->
+                            <div class="badge"></div>
+                        </div>
+                        <!-- More button -->
+                        <div class="more-button"></div>
+                    </div>
+
+                    <!-- Card content -->
+                    <div class="content h-[40%]">
+                        <div class="heading">Store Analytics Data</div>
+                        <div class="text">Last edit by Mark at<span class="time">7:40 PM</span></div>
+                    </div>
+                </div>
+                <!-- End of Card -->
+
+                <div class="border-2 border-gray-900 h-40"></div>
+                <div class="border-2 border-gray-900 h-40"></div>
+                <div class="border-2 border-gray-900 h-40"></div>
+                <div class="border-2 border-gray-900 h-40"></div>
+                <div class="border-2 border-gray-900 h-40"></div>
+                <div class="border-2 border-gray-900 h-40"></div>
+                <div class="border-2 border-gray-900 h-40"></div>
+                <div class="border-2 border-gray-900 h-40"></div>
+            </div>
+        </div>
+    </section>
 </body>
 
 </html>
