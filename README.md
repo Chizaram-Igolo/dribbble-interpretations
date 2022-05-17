@@ -16,7 +16,7 @@ This is a work in progress, so please keep checking back.
 
 **Design Shot:** https://dribbble.com/shots/18211526
 
-<img src="./screenshots/nocode-apps.png" title="nocode-apps" alt="nocode-apps" width="525"/>
+<img src="./screenshots/nocode-apps.png" title="nocode-apps" alt="nocode-apps" />
 
 ## How to Run 👇
 
