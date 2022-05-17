@@ -8,6 +8,17 @@ I work alone and I'm unemployed at the moment, so this repository doubles as my 
 
 This is a work in progress, so please keep checking back.
 
-### How to Use
+## How to Use 👇
 
-Simply clone this repository, unzip and open in your favourite editor.
+1. Clone repository and `cd` into folder:
+
+```
+git clone https://github.com/Chizaram-Igolo/dribbble-interpretations.git
+cd dribbble-interpretation
+```
+
+2. Run `npm install`
+
+3. Open the folder in another terminal and run `npm run build-css` to produce output css and watch for changes. (See _scripts_ entry in package.json file for the build script)
+
+4. Open folder in your favourite editor (e.g VSCode) and start a live server and navigate to `dribbble-uis` folder in your favourite browser to open a project.
