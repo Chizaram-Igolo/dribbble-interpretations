@@ -1,0 +1,24 @@
+{
+  "name": "dribbble-interpretations",
+  "version": "1.0.0",
+  "description": "This repository is intended to show my interpretations of web mockups from dribbble.com. All credits are given where due.",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "build-css": "tailwindcss -i ./src/styles.css -o ./public/styles.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chizaram-Igolo/dribbble-interpretations.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chizaram-Igolo/dribbble-interpretations/issues"
+  },
+  "homepage": "https://github.com/Chizaram-Igolo/dribbble-interpretations#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.0.24"
+  }
+}
