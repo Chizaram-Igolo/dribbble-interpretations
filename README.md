@@ -1,4 +1,4 @@
-# 🏀 Dribbble UI Interpretations — w/ HTML & TailWindCSS <img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg" title="HTML5" alt="HTML" width="40" height="40"/>&nbsp;<img src="https://github.com/devicons/devicon/blob/master/icons/tailwindcss/tailwindcss-plain.svg" title="TailWindCSS" alt="TailwindCSS" height="40"/>&nbsp;
+# Dribbble UI Interpretations — w/ HTML & TailWindCSS <img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg" title="HTML5" alt="HTML" width="40" height="40"/>&nbsp;<img src="https://github.com/devicons/devicon/blob/master/icons/tailwindcss/tailwindcss-plain.svg" title="TailWindCSS" alt="TailwindCSS" height="40"/>&nbsp;
 
 ## About
 
@@ -10,7 +10,15 @@ I work alone and I'm unemployed at the moment, so this repository doubles as my 
 
 This is a work in progress, so please keep checking back.
 
-## How to Use 👇
+## Screenshots 📸
+
+### Credit: Emy Lascan
+
+**Design Shot:** https://dribbble.com/shots/18211526
+
+<img src="./screenshots/nocode-apps.png" title="nocode-apps" alt="nocode-apps" width="525"/>
+
+## How to Run 👇
 
 1. Clone repository and `cd` into folder:
 
