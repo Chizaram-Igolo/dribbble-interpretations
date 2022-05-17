@@ -8,15 +8,24 @@
     <title>Document</title>
     <link rel="stylesheet" href="../../../font-awesome.min.css" />
     <link rel="stylesheet" href="../../../styles.css">
+
+    <style>
+        * {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+    </style>
 </head>
 
-<body class="w-screen h-screen">
-    <section class="w-full h-full">
-        <div class="w-full h-full pt-8">
-            <div class="w-[70%] grid grid-cols-2 md:grid md:grid-cols-3 gap-4 mx-auto">
+<body class="w-full h-screen">
+    <section class="w-full h-auto">
+        <div class="w-full h-auto py-8 px-8 sm:px-4 md:px-2">
+            <div
+                class="w-full sm:w-[95%] md:w-[80%] lg:w-[90%] xl:w-[75%] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mx-auto">
 
                 <!-- Card -->
-                <div class="bg-[#FBECEC] h-50 p-8 rounded-md border-2 border-[#FBECEC]">
+                <div class="bg-[#FBECEC] h-50 p-8 pt-6 rounded-md border-2 border-[#FBECEC]">
                     <!-- Card header -->
                     <div class="h-[60%] flex">
                         <!-- Icon circle -->
@@ -37,7 +46,7 @@
                     </div>
 
                     <!-- Card content -->
-                    <div class="h-[40%] pt-2 font-['Open Sans']">
+                    <div class="h-[40%] pt-2.5 font-['Open Sans']">
                         <!-- Content header -->
                         <div>
                             <h3 class="text-xl font-semibold">
@@ -53,14 +62,309 @@
                 </div>
                 <!-- End of Card -->
 
-                <div class="border-2 border-gray-900 h-40"></div>
-                <div class="border-2 border-gray-900 h-40"></div>
-                <div class="border-2 border-gray-900 h-40"></div>
-                <div class="border-2 border-gray-900 h-40"></div>
-                <div class="border-2 border-gray-900 h-40"></div>
-                <div class="border-2 border-gray-900 h-40"></div>
-                <div class="border-2 border-gray-900 h-40"></div>
-                <div class="border-2 border-gray-900 h-40"></div>
+                <!-- Card -->
+                <div class="bg-[#FDF4E9] h-50 p-8 pt-6 mt-8rounded-md border-2 border-[#FDF4E9]">
+                    <!-- Card header -->
+                    <div class="h-[60%] flex">
+                        <!-- Icon circle -->
+                        <div
+                            class="relative w-[5.4rem] h-[5.4rem] bg-gray-900 rounded-full border-[1.1rem] border-[#FFD6A5] text-center cursor-pointer">
+
+                            <i class="fa-solid fa-book-bookmark text-[1.4rem] leading-[3.2rem] text-white"></i>
+                            <!-- Card badge -->
+                            <div
+                                class="absolute bottom-[-35%] right-[-40%] badge w-8 h-8 rounded-full bg-white shadow text-center">
+                                <i class="fa-solid fa-bell text-lg leading-8 text-[#B0B0B0]"></i>
+                            </div>
+                        </div>
+                        <!-- More button -->
+                        <div class="more-button ml-auto h-fit cursor-pointer">
+                            <i class="fa-solid fa-ellipsis text-2xl"></i>
+                        </div>
+                    </div>
+
+                    <!-- Card content -->
+                    <div class="h-[40%] pt-2.5 font-['Open Sans']">
+                        <!-- Content header -->
+                        <div>
+                            <h3 class="text-xl font-semibold">
+                                Library List
+                            </h3>
+                        </div>
+                        <!-- Content text -->
+                        <div>
+                            <p class="text-md text-gray-500">
+                                Last edit by Mark at <span class="time">7:40 PM</span></p>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of Card -->
+
+                <!-- Card -->
+                <div class="bg-[#E1E7E9] h-50 p-8 pt-6 rounded-md border-2 border-[#E1E7E9]">
+                    <!-- Card header -->
+                    <div class="h-[60%] flex">
+                        <!-- Icon circle -->
+                        <div
+                            class="relative w-[5.4rem] h-[5.4rem] bg-gray-900 rounded-full border-[1.1rem] border-[#BED0D6] text-center cursor-pointer">
+
+                            <i class="fa-solid fa-credit-card text-[1.4rem] leading-[3.2rem] text-white"></i>
+                            <!-- Card badge -->
+                            <div
+                                class="absolute bottom-[-35%] right-[-40%] badge w-8 h-8 rounded-full bg-white shadow text-center">
+                                <i class="fa-solid fa-bell text-lg leading-8 text-[#F86A2B]"></i>
+                            </div>
+                        </div>
+                        <!-- More button -->
+                        <div class="more-button ml-auto h-fit cursor-pointer">
+                            <i class="fa-solid fa-ellipsis text-2xl"></i>
+                        </div>
+                    </div>
+
+                    <!-- Card content -->
+                    <div class="h-[40%] pt-2.5 font-['Open Sans']">
+                        <!-- Content header -->
+                        <div>
+                            <h3 class="text-xl font-semibold">
+                                Subscription Failed
+                            </h3>
+                        </div>
+                        <!-- Content text -->
+                        <div>
+                            <p class="text-md text-gray-500">
+                                Last edit by Mark at <span class="time">7:40 PM</span></p>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of Card -->
+
+                <!-- Card -->
+                <div class="bg-[#EBE8FA] h-50 p-8 pt-6 rounded-md border-2 border-[#EBE8FA]">
+                    <!-- Card header -->
+                    <div class="h-[60%] flex">
+                        <!-- Icon circle -->
+                        <div
+                            class="relative w-[5.4rem] h-[5.4rem] bg-gray-900 rounded-full border-[1.1rem] border-[#BDB2FF] text-center cursor-pointer">
+
+                            <i class="fa-solid fa-code text-[1.4rem] leading-[3.2rem] text-white"></i>
+                            <!-- Card badge -->
+                            <div
+                                class="absolute bottom-[-35%] right-[-40%] badge w-8 h-8 rounded-full bg-white shadow text-center">
+                                <i class="fa-solid fa-bell text-lg leading-8 text-[#F86A2B]"></i>
+                            </div>
+                        </div>
+                        <!-- More button -->
+                        <div class="more-button ml-auto h-fit cursor-pointer">
+                            <i class="fa-solid fa-ellipsis text-2xl"></i>
+                        </div>
+                    </div>
+
+                    <!-- Card content -->
+                    <div class="h-[40%] pt-2.5 font-['Open Sans']">
+                        <!-- Content header -->
+                        <div>
+                            <h3 class="text-xl font-semibold">
+                                Code Snippets
+                            </h3>
+                        </div>
+                        <!-- Content text -->
+                        <div>
+                            <p class="text-md text-gray-500">
+                                Last edit by Mark at <span class="time">7:40 PM</span></p>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of Card -->
+
+                <!-- Card -->
+                <div class="bg-[#EEFAFB] h-50 p-8 pt-6 rounded-md border-2 border-[#EEFAFB]">
+                    <!-- Card header -->
+                    <div class="h-[60%] flex">
+                        <!-- Icon circle -->
+                        <div
+                            class="relative w-[5.4rem] h-[5.4rem] bg-gray-900 rounded-full border-[1.1rem] border-[#9BF6FF] text-center cursor-pointer">
+
+                            <i class="fa-solid fa-cubes-stacked text-[1.4rem] leading-[3.2rem] text-white"></i>
+                            <!-- Card badge -->
+                            <div
+                                class="absolute bottom-[-35%] right-[-40%] badge w-8 h-8 rounded-full bg-white shadow text-center">
+                                <i class="fa-solid fa-bell text-lg leading-8 text-[#B0B0B0]"></i>
+                            </div>
+                        </div>
+                        <!-- More button -->
+                        <div class="more-button ml-auto h-fit cursor-pointer">
+                            <i class="fa-solid fa-ellipsis text-2xl"></i>
+                        </div>
+                    </div>
+
+                    <!-- Card content -->
+                    <div class="h-[40%] pt-2.5 font-['Open Sans']">
+                        <!-- Content header -->
+                        <div>
+                            <h3 class="text-xl font-semibold">
+                                Building Blocks
+                            </h3>
+                        </div>
+                        <!-- Content text -->
+                        <div>
+                            <p class="text-md text-gray-500">
+                                Last edit by Mark at <span class="time">7:40 PM</span></p>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of Card -->
+
+                <!-- Card -->
+                <div class="bg-[#F5EEF5] h-50 p-8 pt-6 rounded-md border-2 border-[#F5EEF5]">
+                    <!-- Card header -->
+                    <div class="h-[60%] flex">
+                        <!-- Icon circle -->
+                        <div
+                            class="relative w-[5.4rem] h-[5.4rem] bg-gray-900 rounded-full border-[1.1rem] border-[#FFC6FF] text-center cursor-pointer">
+
+                            <i class="fa-solid fa-chart-line text-[1.4rem] leading-[3.2rem] text-white"></i>
+                            <!-- Card badge -->
+                            <div
+                                class="absolute bottom-[-35%] right-[-40%] badge w-8 h-8 rounded-full bg-white shadow text-center">
+                                <i class="fa-solid fa-bell text-lg leading-8 text-[#F86A2B]"></i>
+                            </div>
+                        </div>
+                        <!-- More button -->
+                        <div class="more-button ml-auto h-fit cursor-pointer">
+                            <i class="fa-solid fa-ellipsis text-2xl"></i>
+                        </div>
+                    </div>
+
+                    <!-- Card content -->
+                    <div class="h-[40%] pt-2.5 font-['Open Sans']">
+                        <!-- Content header -->
+                        <div>
+                            <h3 class="text-xl font-semibold">
+                                Store Analytics Data
+                            </h3>
+                        </div>
+                        <!-- Content text -->
+                        <div>
+                            <p class="text-md text-gray-500">
+                                Last edit by Mark at <span class="time">7:40 PM</span></p>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of Card -->
+
+                <!-- Card -->
+                <div class="bg-[#E2E9F3] h-50 p-8 pt-6 rounded-md border-2 border-[#E2E9F3]">
+                    <!-- Card header -->
+                    <div class="h-[60%] flex">
+                        <!-- Icon circle -->
+                        <div
+                            class="relative w-[5.4rem] h-[5.4rem] bg-gray-900 rounded-full border-[1.1rem] border-[#A0C4FF] text-center cursor-pointer">
+
+                            <i class="fa-solid fa-code text-[1.4rem] leading-[3.2rem] text-white"></i>
+                            <!-- Card badge -->
+                            <div
+                                class="absolute bottom-[-35%] right-[-40%] badge w-8 h-8 rounded-full bg-white shadow text-center">
+                                <i class="fa-solid fa-bell text-lg leading-8 text-[#F86A2B]"></i>
+                            </div>
+                        </div>
+                        <!-- More button -->
+                        <div class="more-button ml-auto h-fit cursor-pointer">
+                            <i class="fa-solid fa-ellipsis text-2xl"></i>
+                        </div>
+                    </div>
+
+                    <!-- Card content -->
+                    <div class="h-[40%] pt-2.5 font-['Open Sans']">
+                        <!-- Content header -->
+                        <div>
+                            <h3 class="text-xl font-semibold">
+                                Code Snippets
+                            </h3>
+                        </div>
+                        <!-- Content text -->
+                        <div>
+                            <p class="text-md text-gray-500">
+                                Last edit by Mark at <span class="time">7:40 PM</span></p>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of Card -->
+
+                <!-- Card -->
+                <div class="bg-[#FFFBE9] h-50 p-8 pt-6 rounded-md border-2 border-[#FFFBE9]">
+                    <!-- Card header -->
+                    <div class="h-[60%] flex">
+                        <!-- Icon circle -->
+                        <div
+                            class="relative w-[5.4rem] h-[5.4rem] bg-gray-900 rounded-full border-[1.1rem] border-[#FFE6A5] text-center cursor-pointer">
+
+                            <i class="fa-solid fa-cubes-stacked text-[1.4rem] leading-[3.2rem] text-white"></i>
+                            <!-- Card badge -->
+                            <div
+                                class="absolute bottom-[-35%] right-[-40%] badge w-8 h-8 rounded-full bg-white shadow text-center">
+                                <i class="fa-solid fa-bell text-lg leading-8 text-[#B0B0B0]"></i>
+                            </div>
+                        </div>
+                        <!-- More button -->
+                        <div class="more-button ml-auto h-fit cursor-pointer">
+                            <i class="fa-solid fa-ellipsis text-2xl"></i>
+                        </div>
+                    </div>
+
+                    <!-- Card content -->
+                    <div class="h-[40%] pt-2.5 font-['Open Sans']">
+                        <!-- Content header -->
+                        <div>
+                            <h3 class="text-xl font-semibold">
+                                Building Blocks
+                            </h3>
+                        </div>
+                        <!-- Content text -->
+                        <div>
+                            <p class="text-md text-gray-500">
+                                Last edit by Mark at <span class="time">7:40 PM</span></p>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of Card -->
+
+                <!-- Card -->
+                <div class="bg-[#000000] h-50 p-8 pt-6 rounded-md border-2 border-[#000000]">
+                    <!-- Card header -->
+                    <div class="h-[60%] flex">
+                        <!-- Icon circle -->
+                        <div
+                            class="relative w-[5.4rem] h-[5.4rem] bg-[#000000] rounded-full border-[1.1rem] border-[#FFFFFF] text-center cursor-pointer">
+
+                            <i class="fa-solid fa-chart-line text-[1.4rem] leading-[3.2rem] text-white"></i>
+                            <!-- Card badge -->
+                            <div
+                                class="absolute bottom-[-35%] right-[-40%] badge w-8 h-8 rounded-full bg-white shadow text-center">
+                                <i class="fa-solid fa-bell text-lg leading-8 text-[#F86A2B]"></i>
+                            </div>
+                        </div>
+                        <!-- More button -->
+                        <div class="more-button ml-auto h-fit cursor-pointer">
+                            <i class="fa-solid fa-ellipsis text-2xl"></i>
+                        </div>
+                    </div>
+
+                    <!-- Card content -->
+                    <div class="h-[40%] pt-2.5 font-['Open Sans']">
+                        <!-- Content header -->
+                        <div>
+                            <h3 class="text-xl font-semibold text-white">
+                                Storefront Data
+                            </h3>
+                        </div>
+                        <!-- Content text -->
+                        <div>
+                            <p class="text-md text-white">
+                                Last edit by Mark at <span class="time">7:40 PM</span></p>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of Card -->
             </div>
         </div>
     </section>
